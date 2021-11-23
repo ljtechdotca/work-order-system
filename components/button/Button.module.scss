@@ -1,0 +1,13 @@
+.root {
+  padding: 0.25rem;
+}
+
+.container {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 2px;
+  &:hover {
+    color: dodgerblue;
+    border-color: dodgerblue;
+  }
+}

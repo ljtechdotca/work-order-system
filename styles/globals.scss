@@ -1,0 +1,48 @@
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+form {
+  padding: 4.5rem 0;
+  max-width: 440px;
+  margin: auto;
+}
+
+label {
+  display: block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  margin: 0 0 0.25rem;
+}
+
+fieldset {
+  border: unset;
+  padding: 0.25rem;
+  margin-bottom: 1rem;
+  flex: 1 1 0%;
+}
+
+input,
+textarea {
+  border: 1px solid #ddd;
+  width: 100%;
+  border-radius: 2px;
+  padding: 0.25rem;
+}
+
+textarea {
+  resize: unset;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  box-sizing: border-box;
+}

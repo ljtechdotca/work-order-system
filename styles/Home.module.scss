@@ -1,0 +1,75 @@
+.flex {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.grid {
+  display: grid;
+  row-gap: 1rem;
+}
+
+.container {
+  max-width: 768px;
+  margin: auto;
+  padding: 4.5rem 1.5rem;
+}
+
+.list {
+  @extend .grid;
+}
+
+.item {
+  @extend .grid;
+  border-bottom: 1px solid #cfcfcf;
+  padding: 0 0 1rem;
+}
+
+.link {
+  &:hover {
+    color: dodgerblue;
+  }
+}
+
+.id {
+  font-size: 0.75rem;
+}
+
+.name {
+  font-size: 0.75rem;
+  font-weight: 600;
+  color: #cfcfcf;
+}
+
+.title {
+  font-weight: 700;
+  text-decoration: underline;
+}
+
+.tag {
+  border: 1px solid transparent;
+  border-radius: 2px;
+  padding: 0.25rem;
+  border-radius: 2px;
+  font-size: 0.75rem;
+  &__Low {
+    @extend .tag;
+    border-color: rgb(0, 255, 110);
+    color: rgb(0, 255, 110);
+  }
+  &__Normal {
+    @extend .tag;
+
+    border-color: dodgerblue;
+    color: dodgerblue;
+  }
+  &__Emergency {
+    @extend .tag;
+    border-color: rgb(255, 0, 51);
+    color: rgb(255, 0, 51);
+  }
+}
+
+.description {
+  font-size: 0.75rem;
+}
